@@ -1,0 +1,61 @@
+
+
+header{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    background: url(/images/home_header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    z-index: 1;
+   
+}
+header::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: linear-gradient(to bottom,#75EB53 ,#4ED626 ,#3FAD1F,#227F07 );
+    opacity: 0.55;
+    z-index: -1;
+
+}
+header .svg-wave{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+.svg-wave path{
+    width: 100%;
+    fill: #fff;
+}
+.contenedor-titulo{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.servicios{
+    position: absolute;
+    left: 0;
+    margin-left: 1rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: var(--fuentePrincipal);
+}
+.nombre-empresa{
+    position: relative;
+    font-family: var(--fuentePrincipal);
+    font-size: 2.6rem;
+    color: var(--colorTitulos);
+    -webkit-text-stroke: 0.03vw  #fff;
+}
+.info-header p{
+    margin: 0 auto;
+    text-align: center;
+}

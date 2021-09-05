@@ -1,0 +1,11 @@
+:root{
+    --colorDebilDegradado:#42F40F;
+    --colorFuerteDegradado:#2EAD09 ;
+    --tamanioFuente:10px;
+    --colorTitulos:#185F04 ;
+    --colorParrafos:#484E46 ;
+    --colorTextoBotones:#fff ;
+    --fuentePrincipal: 'Poppins', sans-serif;
+    --fuenteTituloParrafos:'Architects Daughter', cursive;
+    --fuenteTexto:'Chakra Petch', sans-serif;
+}
