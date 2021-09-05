@@ -40,14 +40,7 @@ header .svg-wave{
     justify-content: center;
     align-items: center;
 }
-.servicios{
-    position: absolute;
-    left: 0;
-    margin-left: 1rem;
-    text-decoration: none;
-    font-size: 1.2rem;
-    font-family: var(--fuentePrincipal);
-}
+
 .nombre-empresa{
     position: relative;
     font-family: var(--fuentePrincipal);
@@ -55,7 +48,59 @@ header .svg-wave{
     color: var(--colorTitulos);
     -webkit-text-stroke: 0.03vw  #fff;
 }
+.contenedor-titulo img{
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    z-index: -1;
+    user-select: none;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.info-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .info-header p{
-    margin: 0 auto;
     text-align: center;
+    width: 60%;
+    font-size: 1.2rem;
+}
+.info-header p:last-of-type{
+    margin-bottom: 1rem;
+    }
+.texto-importante{
+    font-size: 1.8rem;
+}
+.info-header a{
+    background: linear-gradient(var(--colorDebilDegradado),var(--colorFuerteDegradado));
+    width: 150px;
+    height: 28px;
+    color: var(--colorTextoBotones);
+    text-align: center;
+    border-radius: 4px;
+    font-family: var(--fuenteTexto);
+    transition: transform 0.4s linear;
+    -webkit-transition: transform 0.4s linear;
+    -moz-transition: transform 0.4s linear;
+    -ms-transition: transform 0.4s linear;
+    -o-transition: transform 0.4s linear;
+    text-decoration: none;
+    font-weight: bold;
+}
+.info-header a:hover{
+    cursor: pointer;
+    transform: scale(1.10);
+    -webkit-transform: scale(1.10);
+    -moz-transform: scale(1.10);
+    -ms-transform: scale(1.10);
+    -o-transform: scale(1.10);
+    text-decoration: underline;
 }

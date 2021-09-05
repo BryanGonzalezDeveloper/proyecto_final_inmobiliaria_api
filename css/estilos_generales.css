@@ -2,15 +2,19 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Chakra Petch', sans-serif;
 }
 
 body{
     min-height: 100vh;
     width: 100%;
-    
+    max-width: 1366px;
 }
 p{
     font-family: var(--fuenteTexto);
     font-weight: 600;
 }
+i{
+    color: var(--colorIconos);
+}
+
+
