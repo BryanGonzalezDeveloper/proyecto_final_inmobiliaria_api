@@ -13,8 +13,32 @@ p{
     font-family: var(--fuenteTexto);
     font-weight: 600;
 }
-i{
-    color: var(--colorIconos);
+.contenedor-btn{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
 }
-
-
+.btn-api{
+    position: relative;
+    text-decoration:none ;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: var(--fuenteTituloParrafos);
+    text-align: center;
+    padding: 0 14px;
+    color: var(--colorTitulos);
+    transition: 0.7s;
+    -webkit-transition: 0.7s;
+    -moz-transition: 0.7s;
+    -ms-transition: 0.7s;
+    -o-transition: 0.7s;
+    line-height: 45px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.btn-api:hover{
+    background:var(--colorTitulos);
+    color: var(--colorTextoBotones);
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
