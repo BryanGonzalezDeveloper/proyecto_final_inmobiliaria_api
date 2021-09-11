@@ -79,28 +79,27 @@ header .svg-wave{
 .texto-importante{
     font-size: 1.8rem;
 }
-.info-header a{
-    background: linear-gradient(var(--colorDebilDegradado),var(--colorFuerteDegradado));
-    width: 150px;
-    height: 28px;
-    color: var(--colorTextoBotones);
-    text-align: center;
-    border-radius: 4px;
-    font-family: var(--fuenteTexto);
-    transition: transform 0.4s linear;
-    -webkit-transition: transform 0.4s linear;
-    -moz-transition: transform 0.4s linear;
-    -ms-transition: transform 0.4s linear;
-    -o-transition: transform 0.4s linear;
+
+#btnContactar{
     text-decoration: none;
-    font-weight: bold;
+    font-size: 1.4rem;
+    color:var(--colorTextoBotones);
+    padding:0 1rem;
+    background: linear-gradient(var(--colorDebilDegradado),var(--colorFuerteDegradado));
+    line-height: 25px;
+    z-index: 2;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
 }
-.info-header a:hover{
-    cursor: pointer;
+
+#btnContactar:hover{
     transform: scale(1.10);
     -webkit-transform: scale(1.10);
     -moz-transform: scale(1.10);
     -ms-transform: scale(1.10);
     -o-transform: scale(1.10);
-    text-decoration: underline;
+ 
 }

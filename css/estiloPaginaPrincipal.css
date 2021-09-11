@@ -160,6 +160,7 @@ textarea{
     -moz-transform: scale(1.05);
     -ms-transform: scale(1.05);
     -o-transform: scale(1.05);
+    cursor: pointer;
 }
 
 .footer{
@@ -181,9 +182,47 @@ textarea{
     list-style: none;
     display: inline-block;
 }
+.facebook{
+    color:var(--colorLogoFacebook);
+}
+.instagram{
+    color:var(--colorLogoInstagram)
+}
+.twitter{
+    color: var(--colorLogoTwitter);
+}
+.linkedin{
+    color:var(--colorLogoLinkedin);
+}
 .redes-sociales li i{
     text-align: center;
     font-size: 2.2rem;
-    width: 45px;
-    height: 45px;
+    width: 55px;
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.redes-sociales li{
+    background: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    transition: all 0.4s linear;
+    -webkit-transition: all 0.4s linear;
+    -moz-transition: all 0.4s linear;
+    -ms-transition: all 0.4s linear;
+    -o-transition: all 0.4s linear;
+}
+
+.redes-sociales li:hover{
+    transform: scale(1.10) translateY(-3%);
+    -webkit-transform: scale(1.10) translateY(-3%);
+    -moz-transform: scale(1.10) translateY(-3%);
+    -ms-transform: scale(1.10) translateY(-3%);
+    -o-transform: scale(1.10) translateY(-3%);
+    cursor: pointer;
 }
